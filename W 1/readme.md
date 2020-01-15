@@ -15,8 +15,7 @@ https://github.com/hannahlouwho/441_Work
     <body>
         <h1>Hannah's 441 Homework Site</h1>
 
-        <p>This is the main homepage for Hannah Wheeler's example homework site for mart_441.
-        This website is where all live examples will be located throughout the semester.</p>
+        <p>I had a fun time designing my web page. I have a few questions and I plan on comming in to ask how to fix them. but for the most part I think i designed an okay page for the work that I will be doing this semester!</p>
     </body>
 </html>
 <p>E.)![image of my atom editor](./images/hw.png) </p>

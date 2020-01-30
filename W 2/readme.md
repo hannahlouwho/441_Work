@@ -13,9 +13,9 @@ https://github.com/hannahlouwho/441_Work
         <title>Hannah's 441 Site</title>
     </head>
     <body>
-        <h1>Hannah's 441 Homework Site</h1>
+        <h1>Consol.log!</h1>
 
-        <p>I had a fun time designing my web page. I have a few questions and I plan on comming in to ask how to fix them. but for the most part I think i designed an okay page for the work that I will be doing this semester!</p>
+        <p>At first I was like huh? What do you mean at comments to the console.log. I tried and it just kept giving me errors. And then it just clicked... then i felt dumb for not getting it the first time ha!</p>
     </body>
 </html>
 <p>E.)![image of my atom editor](./images/hw.png) </p>

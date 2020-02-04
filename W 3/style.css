@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "aftershok";
+  src: url("./fonts/After_Shok-webfont.woff") format("woff");
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  font-family: arial;
+  margin-left: 50px;
+}
+
+img {
+  overflow: hidden;
+}
+
+button {
+  color: black;
+  background-color: red;
+  border: 0;
+  font-family: arial;
+  font-size: 1em;
+  margin: 5px;
+  min-width: 200px;
+  padding: 5px;
+
+}
+
+button:hover {
+  font-family: Arial, monospace;
+}
+
+button:active{
+    background-color: red;
+}
+
+#title_btn:hover, #title2_btn:hover {
+  font-family: 'aftershok', arial, monospace;
+  letter-spacing: .02em;
+}
+
+}

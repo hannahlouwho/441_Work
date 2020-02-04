@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Escape The Night</title>
+<meta charset="uft-8"/>
+<meta name="description" content="hw 3"
+<meta name="author" content="Hannah Wheeler" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  <body>
+    <div class="hero">
+      <div class="button">
+          <div class="wrapper">
+          <h2><center>Escape the Night!</center></h2>
+          <p><center>You are trapped in a Haunted House. Your goal is to make it out alive, but tred carefully for one wrong move and there is no turning back! </center></p>
+          </div>
+            <div id="text"></div>
+              <div app>
+                <div>
+                  <form id="input" onsubmit="start()">
+                    <center><button type="submit" class="start" onclick="display()">Start</button></center>
+                  </form>
+                </div>
+              </div>
+
+          <script>
+              var a = document.getElementById("input");
+              var b;
+              function display() {
+	               a.style.display = "none";
+               }
+            start = function start() {
+              var reply = confirm("Ready?");
+              if (reply === false) {
+                alert("Oh No! You aren't ready for your escape?");
+                alert("Come back when you are ready to escape!");
+ 	            }
+              else {
+                game();
+                console.log("start");
+              }
+            };
+          function game() {
+            document.getElementById("text").innerHTML = "Escape The Night.";
+            var firstQuestion = prompt("There are two doors. Do you choose door 1? or door 2? \n\ndoor 1 or door 2");
+            if (firstQuestion === "door 1"){
+              alert("Door 1 leads you safely out of the house and to a car. thankfully the keys are in the ignition and you speed away without looking back! ");
+            }
+          else if (firstQuestion === "door 2"){
+            alert("Oh no! You were killed by the crazy clown that haunts the house!");
+          }
+          else {
+            alert ("Want to try again? Comeback when you do!")
+          }
+
+          console.log("story");
+          }
+          </script>
+        </div>
+      </div>
+  </body>
+</html>

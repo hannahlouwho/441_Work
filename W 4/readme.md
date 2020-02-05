@@ -13,11 +13,10 @@ https://github.com/hannahlouwho/441_Work
         <title>Hannah's 441 Site</title>
     </head>
     <body>
-        <h1>Homework #3</h1>
+        <h1>Homework #4</h1>
 
-        <p>When I first started this assignment I had a big idea of what I wanted to do. Then as I was working and pulling ideas and code from the internet I realized I was in over my head. I kept confusing myself and getting what I was trying to do extremely mixed up and I kept losing track of what parts of the story was supposed to go where.</p>
+        <p>I kept my design simple this time as well. I kinda like the simplicity of it. Even if it was easier. I extended upon my other project and created a more leghty story that I think is pretty entertaining and immersive for how no visual or stimulating this project turned out!</p>
 
-        <p>So, I decided to go back to the basics and stick with a very simple design and plan so I was not confusing myself further. I beleive it turned out great, however I would like to expand on this idea! </p>
     </body>
 </html>
 <p>E.)![image of my atom editor](./images/hw.png) </p>

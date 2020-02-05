@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Escape The Night!</title>
+<meta charset="uft-8"/>
+<meta name="description" content="hw 3"
+<meta name="author" content="Hannah Wheeler" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  <body>
+    <div class="hero">
+      <div class="button">
+          <div class="wrapper">
+          <h2><center>Escape the Night!</center></h2>
+          <p><center>You are trapped in a Haunted House. Your goal is to make it out alive, but tred carefully for one wrong move and there is no turning back! </center></p>
+          </div>
+            <div id="text"></div>
+              <div app>
+                <div>
+                  <form id="input" onsubmit="start()">
+                    <center><button type="submit" class="start" onclick="display()">Start</button></center>
+                  </form>
+                </div>
+              </div>
+
+              <script>
+                 var a = document.getElementById("input");
+                 var b;
+                 function display() {
+   	               a.style.display = "none";
+                  }
+               start = function start() {
+                 var reply = confirm("Are you ready?");
+                 if (reply === false) {
+                   alert("Oh No! You aren't ready for an adventure?");
+                   alert("Come back when you are ready to go on an adventure!");
+    	            }
+                 else {
+                   game();
+                   console.log("start");
+                 }
+               };
+             function game() {
+               document.getElementById("text").innerHTML = "Escape!";
+               var firstQuestion = prompt("You are in a very large and cold room with two doors infront of you. You must choose one before the crazed clown finds you. \n\ndoor 1 or door 2");
+               if (firstQuestion === "door 2"){
+                 alert("Door 2 leads into the kitchen where there is a window and a garbage chute. ");
+               var secondQuestion = prompt("Do you take your chances with the garbage chute or climb out the window? \n\nchute or window");
+                   if (secondQuestion === "chute"){
+                     alert("YES! The garbage chute leads straight to the garden. You hide behind the tall stalks of corn as you plan your next move.")
+                       var thirdQuestion = prompt("You see a running car and a large canopy of trees. Do you run to the car and drive away as your escape or do you hide in the forrest? \n\ncar or forrest");
+                       if (thirdQuestion === "car"){
+                         alert ('You make a break for the car. You make it safely inside lock all the doors and speed away. As you are speeding towards the main road a hooded figure jumps out infront of your car causing you to swerve and lose control. \n\n You drive headfirst into a tree killing everyone in the car.')
+                       }
+                       else if (thirdQuestion === "forrest"){
+                         alert('Great choice! You make it safely and are well hidden from danger.')
+                       }
+                       var fourthQuestion = prompt("Unidentifiable creature: You can run but you can not hide! \n\n run or stay hidden")
+                       if (fourthQuestion === "run"){
+                         alert('You run towards the main road!')
+
+                         var fifthQuestion = prompt("You have two choices, keep running towards the main road and hope a civillian is driving by or fight the creature! \n\n keep running or fight!");
+                         if (fifthQuestion === 'keep running'){
+                           alert('As you run towards the road you spook the darlky hooded figure.')
+                         }
+                         else if (fifthQuestion === 'fight!'){
+                           alert('You stop and turn around running full spead at the creature screaming. Your friends follow your lead and join in on your impromptu attack! \n\n Unfortunetly, the creature is much stronger than you and your friends combined and ultimetly kills you all. GAME OVER!')
+                         }
+                       }
+                       else if (fourthQuestion === 'stay hidden') {
+                         alert('The unidentifiable creature finds you and chases you back towards the house where the clown, the hooded figure and the creature all corner you and you do not survive. \n\n GAME OVER!')
+                       }
+                       var sixthQuestion = prompt("The hooded figure chases you towards the road. As you run full speed ahead you notice lights in the distance. You can pick up your speed and run straight towards the lights or veer left and hide behind the ridge till another car comes.  \n\n take my chances! or hide");
+                         if (sixthQuestion === "hide")
+                         alert('Well that was stupid obviously the hooded figure was right behind you and saw you hide behind the ridge. \n\n GAME OVER!')
+                         else if (sixthQuestion === "take my chances!"){
+                         alert('You run straight for the lights waving your arms. The driver does not see you and your friends resulting in the driver running you over and thinking it was a deer. \n\nGAME OVER!')
+                       }
+                   }
+                   else if (secondQuestion === "window"){
+                     alert ('Oops! The clown gotchya! \n\n GAME OVER!')
+                   }
+               }
+             else if (firstQuestion === "door 1"){
+               alert("Oh no! Behind door 1 is a false floor! As you and your friends step into the dark room the floor gives way and you plummet to your doom....");
+             }
+             else {
+               alert ("Don't want to play? Comeback when you do!")
+             }
+
+             console.log("story");
+             }
+             </script>
+           </div>
+         </div>
+     </body>
+   </html>

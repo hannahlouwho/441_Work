@@ -1,6 +1,3 @@
-# README.md
-## Hannah Wheeler
-
 #441_Work
 
 Homework repository for MART 441
@@ -13,10 +10,19 @@ https://github.com/hannahlouwho/441_Work
         <title>Hannah's 441 Site</title>
     </head>
     <body>
-        <h1>Homework #4</h1>
+        <h1>Hannah's 441 Homework Site</h1>
 
-        <p>I kept my design simple this time as well. I kinda like the simplicity of it. Even if it was easier. I extended upon my other project and created a more leghty story that I think is pretty entertaining and immersive for how no visual or stimulating this project turned out!</p>
+        # Homework 5
 
+This week was okay. I am having trouble with the padding and margins of the
+table. I think its fixed and I cant figure out how to undo that. Hopefully I
+can soon. Just as well I think it looks alright besides that technical
+difficuty! I did reference Cassens' example code. Hopefully, not too much!
+I do like some of my stylings. They turned out better than I had origionally
+planned. I kinda just picked a couple colors and went with it. I was also
+origionally going to do this with babies....but since I am a cat mom I
+decided the kitties were funnier.
+
+![image](images/ss.png)
     </body>
 </html>
-<p>E.)![image of my atom editor](./images/hw.png) </p>

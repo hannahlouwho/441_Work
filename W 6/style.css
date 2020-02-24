@@ -1,0 +1,48 @@
+body {
+  background-color: yellow;
+  color: pink;
+  font-family: arial;
+  margin-left: 50px;
+  margin-right: 1000px;
+  padding-right: 1000px;
+
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 500%;
+  color: pink;
+  padding: 100px;
+  padding-right: 1500px;
+}
+.divTable{
+	display: table;
+	width: -50%;
+  height: 100%
+
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: white;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 10px solid pink;
+	display: table-cell;
+	padding right: 5px 5px;
+}
+.divTableHeading {
+	background-color: white;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: white;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}

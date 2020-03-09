@@ -1,0 +1,56 @@
+#square1 {
+  opacity: 0.5;
+   width: 200px;
+   height: 200px;
+   background: white;
+   position: absolute;
+   left: 0;
+   top: 800;
+ }
+ #square2 {
+   opacity: 0.25;
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 100;
+  }
+
+ #poem{
+   background: white;
+ }
+
+ #third{
+   background: white;
+ }
+
+ body{
+     background-color: white;
+ }
+
+ #image1{
+   height: 4;
+    width: 4;
+    max-height: 100px;
+    position: right;
+    top: 300;
+
+ }
+ #image2{
+  height: 4;
+   width: 4;
+   max-height:100px;
+   position: left;
+   top: 700;
+
+}
+
+#image3{
+  height: 4;
+   width: 4;
+   max-height: 100px;
+   position: right;
+   top: 900;
+
+}

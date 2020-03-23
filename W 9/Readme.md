@@ -18,4 +18,4 @@ But only with Html so far
 ---
 I cant get the information to produce in AJAX, and JSON
 
-<p>E.)![image of my atom editor](./images/ss.png) </p>
+![image of my atom editor](./images/ss.png)

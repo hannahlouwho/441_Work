@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hannah Wheeler Designs</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="scripts/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/pop-ups.js"></script>
+<script type="text/javascript" src="scripts/nav.js"></script>
+</head>
+<body>
+
+<img src="images/PH.png" width="450" height="150">
+<nav>
+  <ul id="menu" class="menu">
+    <li> <a href="#" id="about"> <img src="images/1_menu.jpg" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">About me</span> </span> </a> </li>
+    <li> <a href="#" id="projects"> <img src="images/2_menu.jpg" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">Portfolio</span> </span> </a> </li>
+    <li> <a href="#" id="contact"> <img src="images/3_menu.jpg" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">Contact</span> </span> </a> </li>
+  </ul>
+</nav>
+<section id="bg">
+  <section id="overlay"></section>
+  <a href="#" class="nextImageBtn" title="next"></a><a href="#" class="prevImageBtn" title="previous"></a><img src="images/gallery/1.jpg" alt="Title of this pic" title="Title of this pic" id="bgimg" /></section>
+<div id="preloader"><img src="images/ajax-loader_dark.gif" width="32" height="32" alt="" /></div>
+<div id="toolbar"><a href="#" title="Maximize" onClick="ImageViewMode('full');return false"><img src="images/toolbar_fs_icon.png" width="50" height="50" alt="" /></a></div>
+<div id="thumbnails_wrapper">
+  <div id="outer_container">
+    <div class="thumbScroller">
+      <div class="container">
+        <div class="content">
+          <div><a href="images/gallery/1.jpg"><img src="images/gallery/1_thumb.jpg" width="250" height="150" title="Title of this pic" alt="Title of this pic" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/2.jpg"><img src="images/gallery/2_thumb.jpg" width="250" height="150" title="Second Title" alt="Second Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/3.jpg"><img src="images/gallery/3_thumb.jpg" width="250" height="150" title="Third Title" alt="Third Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/4.jpg"><img src="images/gallery/4_thumb.jpg" width="250" height="150" title="Fourth Title" alt="Fourth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/5.jpg"><img src="images/gallery/5_thumb.jpg" width="250" height="150" title="Fifth Title" alt="Fifth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/6.jpg"><img src="images/gallery/6_thumb.jpg" width="250" height="150" title="Sixth Title" alt="Sixth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/1.jpg"><img src="images/gallery/1_thumb.jpg" width="250" height="150" title="Title of this pic" alt="Title of this pic" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/2.jpg"><img src="images/gallery/2_thumb.jpg" width="250" height="150" title="Second Title" alt="Second Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/3.jpg"><img src="images/gallery/3_thumb.jpg" width="250" height="150" title="Third Title" alt="Third Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/4.jpg"><img src="images/gallery/4_thumb.jpg" width="250" height="150" title="Fourth Title" alt="Fourth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/5.jpg"><img src="images/gallery/5_thumb.jpg" width="250" height="150" title="Fifth Title" alt="Fifth Title" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/6.jpg"><img src="images/gallery/6_thumb.jpg" width="250" height="150" title="Sixth Title" alt="Sixth Title" class="thumb" /></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<article id="popupAbout" class="popupAbout">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupAboutClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>About Me!</h1>
+        <p><img src="images/me.png" width="250" height="250" alt="" class="image"/> Hello, I'm Hannah Banana, Fee Fi Fo Fana... something like that!
+Who am I? I am your every day kitty loving, bubbly blonde, explorer, mixed with sugar, spice, and something nice on the rocks.
+I grew up in Big Timber Montana. Where the Crazy Mountains are and the friendly people grow. Coming from a small town has taught me two very important lessons. Do good and good will follow you, and there is no place like Montana.
+Poseidon Designs is a metaphor I created to represent my journey with wedding design. When deciding on my brand name I didn't want to go the traditional route that every other designer has. I thought about my life and what has led me to this point. My thoughts brought me to my small town. Since I was little I always knew that I wanted to leave and do big things with my life. I had been staring at the edge of a metaphorical cliff my entire life, but I never really knew what was out there for me.
+Coming from a small town, the idea of "dreaming big" wasn't something people did. You graduated high school, took over the family business, got married, had kids, and then grew old. The idea of knowing where my life was going was not something that I wanted. In result, I always came back to the cliff of my possibilities. I tried to go the traditional route that everyone said would make me happy one day and in all honesty I was scared to go to the cliff and see what was there for me. Going to college and starting a career far away from home was terrifying. However the idea of staying still in my small town scared me more. As time went on the pull to the cliff grew stronger.
+One day I decided I wanted more than this provincial life #BeautyandtheBeast. I stood at the edge of my cliff of possibility and thats when I saw a beautiful ocean of opportunity. I knew I had to see what was out there, I had to jump, and I had to see how far I could go. As I plunged into the ocean of freedom I saw clearly where I wanted my life to go and who I wanted to be. So, I found a boat (University of Montana), climbed aboard, set my sails to the wind and started my degrees in Media Arts and Event Planning.
+Hannah Wheeler Designs is a mission. A mission to make everlasting memories. I strive to capture hearts, emotions, and the culture that everyone possesses. All while building a lifelong relationship with everyone I have the pleasure of meeting. I am excited to meet new friends and create bonds that I can forever carry with me. SO LETS DO THIS THING!</p>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<article id="popupProjects" class="popupProjects">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupProjectsClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Portfolio</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+
+      .row {
+        display: -ms-flexbox; /* IE 10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE 10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      /* Create two equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+      }
+
+      .btn:hover {
+        background-color: #ddd;
+      }
+
+      .btn.active {
+        background-color: #666;
+        color: white;
+      }
+      </style>
+      </head>
+      <body>
+
+      <!-- Header -->
+      <div class="header" id="myHeader">
+        <button class="btn" onclick="one()">1</button>
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="row">
+        <div class="column">
+          <img src="images/portfolio/1.jpg" style="width:100%">
+          <img src="images/portfolio/5.jpg" style="width:100%">
+          <img src="images/portfolio/9.jpg" style="width:100%">
+          <img src="images/portfolio/13.jpg" style="width:100%">
+          <img src="images/portfolio/17.jpg" style="width:100%">
+          <img src="images/portfolio/21.jpg" style="width:100%">
+          <img src="images/portfolio/25.jpg" style="width:100%">
+          <img src="images/portfolio/29.jpg" style="width:100%">
+          <img src="images/portfolio/33.jpg" style="width:100%">
+          <img src="images/portfolio/37.jpg" style="width:100%">
+          <img src="images/portfolio/42.jpg" style="width:100%">
+          <img src="images/portfolio/46.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/portfolio/2.jpg" style="width:100%">
+          <img src="images/portfolio/6.jpg" style="width:100%">
+          <img src="images/portfolio/10.jpg" style="width:100%">
+          <img src="images/portfolio/14.jpg" style="width:100%">
+          <img src="images/portfolio/18.jpg" style="width:100%">
+          <img src="images/portfolio/22.jpg" style="width:100%">
+          <img src="images/portfolio/26.jpg" style="width:100%">
+          <img src="images/portfolio/30.jpg" style="width:100%">
+          <img src="images/portfolio/34.jpg" style="width:100%">
+          <img src="images/portfolio/38.jpg" style="width:100%">
+          <img src="images/portfolio/43.jpg" style="width:100%">
+          <img src="images/portfolio/47.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/portfolio/3.jpg" style="width:100%">
+          <img src="images/portfolio/7.jpg" style="width:100%">
+          <img src="images/portfolio/11.jpg" style="width:100%">
+          <img src="images/portfolio/15.jpg" style="width:100%">
+          <img src="images/portfolio/19.jpg" style="width:100%">
+          <img src="images/portfolio/23.jpg" style="width:100%">
+          <img src="images/portfolio/27.jpg" style="width:100%">
+          <img src="images/portfolio/31.jpg" style="width:100%">
+          <img src="images/portfolio/35.jpg" style="width:100%">
+          <img src="images/portfolio/39.jpg" style="width:100%">
+          <img src="images/portfolio/44.jpg" style="width:100%">
+          <img src="images/portfolio/48.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/portfolio/4.jpg" style="width:100%">
+          <img src="images/portfolio/8.jpg" style="width:100%">
+          <img src="images/portfolio/12.jpg" style="width:100%">
+          <img src="images/portfolio/16.jpg" style="width:100%">
+          <img src="images/portfolio/20.jpg" style="width:100%">
+          <img src="images/portfolio/24.jpg" style="width:100%">
+          <img src="images/portfolio/28.jpg" style="width:100%">
+          <img src="images/portfolio/32.jpg" style="width:100%">
+          <img src="images/portfolio/36.jpg" style="width:100%">
+          <img src="images/portfolio/40.jpg" style="width:100%">
+          <img src="images/portfolio/45.jpg" style="width:100%">
+        </div>
+      </div>
+
+      <script>
+      // Get the elements with class="column"
+      var elements = document.getElementsByClassName("column");
+
+      // Declare a loop variable
+      var i;
+
+      // Full-width images
+      function one() {
+          for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "100%";  // IE10
+          elements[i].style.flex = "100%";
+        }
+      }
+
+      // Two images side by side
+      function two() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "50%";  // IE10
+          elements[i].style.flex = "50%";
+        }
+      }
+
+      // Four images side by side
+      function four() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "25%";  // IE10
+          elements[i].style.flex = "25%";
+        }
+      }
+
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("myHeader");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+      </script>
+        <div class="border"></div>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<article id="popupContact" class="popupContact">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupContactClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Contact Me!</h1>
+        <p><img src="images/me.png" width="450" height="450" alt="" class="image"/></p>
+        <h3>Feel free to email me anytime, and follow or message me on intagram! </h3>
+
+        <p>Email: hannahweelr@gmail.com</p>
+        <br />
+        <div id="social-network"> <a href="https://www.instagram.com/Hannahwheelerdesigns/"" target="_blank"><img src="images/insta.png" width="50" height="50" alt="instagram" />
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<article id="popupBlog" class="popupBlog">
+  <div class="customScrollBox">
+    <div class="container">
+
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+<script type="text/javascript" src="scripts/gallery.js"></script>
+<script type="text/javascript" src="scripts/jquery.mCustomScrollbar.js"></script>
+</body>
+</html>
